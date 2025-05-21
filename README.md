@@ -10,6 +10,6 @@ Setup a virtual environment with Python 3.13, and run `pip install -e requiremen
 
 ## Usage
 
-**1. [Download raw data files](data/README.md)**
-**2. [Download model files](model/README.md)**
-**3. [Run scripts and notebooks!](src/README.md)**
+1. **[Download raw data files](data/README.md)**
+2. **[Download model files](model/README.md)**
+3. **[Run scripts and notebooks!](src/README.md)**

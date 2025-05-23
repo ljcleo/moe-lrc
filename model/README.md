@@ -33,7 +33,7 @@ We modify the original models' config files and modeling source codes to inject 
 
 Optionally, you can create a [device map](https://huggingface.co/docs/accelerate/concept_guides/big_model_inference#designing-a-device-map) file named `device_map.json` for each model, and put it under the model's sub-folder. Once we detect it, we load model weights accordingly, otherwise we let `accelerate` to decide how model weights are loaded. We include an example for GRIN-MoE in this repository (`grin/device_map.json`; map keys depend on each model's modeling source code):
 
-```{json}
+```json
 {
     "model.embed_tokens": 0,
     "model.layers.0": 0,

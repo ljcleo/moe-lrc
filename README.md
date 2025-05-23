@@ -1,11 +1,8 @@
 # Not All Models Suit Expert Offloading: On Local Routing Consistency of Mixture-of-Expert Models
 
 This is the codebase for:
-<center><i><u>Not All Models Suit Expert Offloading:</u>
-
-On <b>Local Routing Consistency</b> of Mixture-of-Expert Models</i>
-
-[[📄Paper](https://arxiv.org/abs/2505.16056)] • [[💻Code](https://github.com/ljcleo/moe-lrc)]</center>
+<p align=center><i>Not All Models Suit Expert Offloading:<br>On <b>Local Routing Consistency</b> of Mixture-of-Expert Models</i></p>
+<p align=center>[<a href="https://arxiv.org/abs/2505.16056">📄Paper</a>] • [<a href="https://github.com/ljcleo/moe-lrc">💻Code</a>]</p>
 
 ![Sample routing score of GRIN-MoE and Jamba-Mini-1.6](plot/sample.png)
 
@@ -21,7 +18,7 @@ Setup a virtual environment with Python 3.13, and run `pip install -e requiremen
 
 ## Cite
 
-```{bibtex}
+```bibtex
 @misc{liang2025modelssuitexpertoffloading,
       title={Not All Models Suit Expert Offloading: On Local Routing Consistency of Mixture-of-Expert Models}, 
       author={Jingcong Liang and Siyuan Wang and Miren Tian and Yitong Li and Duyu Tang and Zhongyu Wei},

@@ -2,6 +2,7 @@ accelerate==1.6.0
 causal-conv1d==1.5.0.post8
 datasets==3.5.0
 flash_attn==2.7.4.post1
+ipykernel==6.29.5
 kaleido==0.2.1
 mamba-ssm==2.2.4
 megablocks==0.9.0

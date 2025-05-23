@@ -2,6 +2,8 @@
 
 This is the codebase for  *Not All Models Suit Expert Offloading: On Local Routing Consistency of Mixture-of-Expert Models*.
 
+[[📄Paper](https://arxiv.org/abs/2505.16056)] [[💻Code](https://github.com/ljcleo/moe-lrc)]
+
 ![Sample routing score of GRIN-MoE and Jamba-Mini-1.6](plot/sample.png)
 
 ## Requirements

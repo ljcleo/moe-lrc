@@ -12,7 +12,7 @@ We recommend using [uv](https://docs.astral.sh/uv/) to setup a Python environmen
 
 ## Usage
 
-1. **[Download raw data files](data/README.md)**
+1. **[Download data files](data/README.md)**
 2. **[Download model files](model/README.md)**
 3. **[Run scripts and notebooks!](src/README.md)**
 

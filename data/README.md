@@ -10,6 +10,6 @@ We generate our sample data from these datasets:
   - `OpenCodeInstruct` ([🤗 Repo](https://huggingface.co/datasets/nvidia/OpenCodeInstruct))
   - `OpenScienceReasoning-2` ([🤗 Repo](https://huggingface.co/datasets/nvidia/OpenScienceReasoning-2))
 
-We convert all plain text data from the original datasets (with necessary preprocessing) into the arrow format; due to large file sizes, we release them in the [Release](https://github.com/ljcleo/moe-lrc/releases) tab. Before running the data preparation scripts (`0?-*.py`), please create a sub-folder named `arrow` in this folder, download the released archive, and extract the arrow files into the sub-folder.
+We convert all plain text data from the original datasets (with necessary preprocessing) into the arrow format; due to large file sizes, we release them in the [Releases](https://github.com/ljcleo/moe-lrc/releases) tab. Before running the data preparation scripts (`0?-*.py`), please create a sub-folder named `arrow` in this folder, download the released archive, and extract the arrow files into the sub-folder.
 
 **Next: [prepare models](../model/README.md)**

@@ -224,6 +224,7 @@ data/*
 model/*/*
 !model/*/config.json
 !model/*/modeling_*.py
+!model/yuan/yuan_moe_hf_model.py
 !model/grin/device_map.json
 output/
 src/00_convert.py

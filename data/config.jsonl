@@ -1,0 +1,11 @@
+{"key": "c4", "name": "C4", "abbr": "C4"}
+{"key": "cc2306", "name": "CommonCrawl", "abbr": "CC"}
+{"key": "book", "name": "Books", "abbr": "BK"}
+{"key": "wikipedia", "name": "Wikipedia", "abbr": "WK"}
+{"key": "arxiv", "name": "ArXiv", "abbr": "AX"}
+{"key": "stackexchange", "name": "StackExchange", "abbr": "SE"}
+{"key": "github", "name": "GitHub", "abbr": "GH"}
+{"key": "lmarena", "name": "LMArena", "abbr": "LM"}
+{"key": "math", "name": "OpenMath", "abbr": "OM"}
+{"key": "code", "name": "OpenCode", "abbr": "OC"}
+{"key": "science", "name": "OpenScience", "abbr": "OS"}

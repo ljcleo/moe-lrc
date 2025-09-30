@@ -1,0 +1,17 @@
+{
+    "sample_length": 512,
+    "num_samples": 2048,
+    "switch_mask_count": 32,
+    "vocab_min_freq": 20,
+    "vocab_top_k": 1,
+    "vocab_hifreq_count": 15,
+    "seg_lengths": [
+        4,
+        16,
+        64,
+        256
+    ],
+    "num_bootstrap": 1000,
+    "ci_confidence": 0.95,
+    "case_gen_length": 32
+}

@@ -1,0 +1,33 @@
+{
+  "model_type": "jetmoe",
+  "activation_function": "silu",
+  "architectures": [
+    "JetMoEForCausalLM"
+  ],
+  "auto_map": {
+    "AutoModel": "modeling_jetmoe.JetMoeModel",
+    "AutoModelForCausalLM": "modeling_jetmoe.JetMoeForCausalLM"
+  },
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "ffn_hidden_size": 5632,
+  "kv_channels": 128,
+  "layer_norm_epsilon": 1e-05,
+  "length_penalty": 1.0,
+  "moe_num_experts": 8,
+  "moe_top_k": 2,
+  "hidden_size": 2048,
+  "num_hidden_layers": 24,
+  "n_positions": 4096,
+  "num_attention_heads": 32,
+  "num_key_value_heads": 16,
+  "num_layers": 24,
+  "rms_norm_eps": 1e-05,
+  "rope_theta": 10000.0,
+  "rotary_percent": 1.0,
+  "tie_word_embeddings": true,
+  "transformers_version": null,
+  "use_cache": true,
+  "vocab_size": 32000,
+  "glu": true
+}

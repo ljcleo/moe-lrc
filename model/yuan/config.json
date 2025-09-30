@@ -1,0 +1,51 @@
+{
+  "_from_model_config": true,
+  "_name_or_path": "/mnt/beegfs2/sunzeyu/bin_522-7/",
+  "architectures": [
+    "YuanForCausalLM"
+  ],
+  "attention_projection_size": 4096,
+  "auto_map": {
+    "AutoConfig": "configuration_yuan.YuanConfig",
+    "AutoModel": "yuan_moe_hf_model.YuanModel",
+    "AutoModelForCausalLM": "yuan_moe_hf_model.YuanForCausalLM"
+  },
+  "bos_token_id": 77185,
+  "causal_mask": true,
+  "dropout": 0,
+  "eod_token": 77185,
+  "eod_token_id": 77185,
+  "eos_token_id": 77185,
+  "hidden_act": "silu",
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "intermediate_size": 8192,
+  "mask_token_id": 77185,
+  "max_position_embeddings": 4096,
+  "model_max_length": 8192,
+  "model_type": "yuan",
+  "moe_config": {
+    "ffn_hidden_size": 8192,
+    "gated_linear_unit": true,
+    "moe_num_experts": 32,
+    "moe_top_k": 2,
+    "norm_topk_prob": true
+  },
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_router_logits": true,
+  "pad_token_id": 77185,
+  "reset_attention_mask": false,
+  "reset_position_ids": true,
+  "rms_norm_eps": 1e-06,
+  "sep_token": 77187,
+  "sep_token_id": 77185,
+  "tokenizer_class": "YuanTokenizer",
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.30.2",
+  "use_cache": true,
+  "use_flash_attention": true,
+  "use_loss_mask": false,
+  "use_moe": true,
+  "vocab_size": 135040
+}

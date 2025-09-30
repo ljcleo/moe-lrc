@@ -1,0 +1,51 @@
+[project]
+name = "moe-lrc"
+version = "0.1.0"
+description = "Not All Models Suit Expert Offloading: On Local Routing Consistency of Mixture-of-Experts Models"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.7.0",
+    "causal-conv1d<1.5.1",
+    "datasets>=2.19.1",
+    "flash-attn>=2.7.4.post1,<2.8",
+    "ipykernel>=6.29.5",
+    "kaleido>=1.1.0",
+    "mamba-ssm==2.2.4",
+    "megablocks>=0.9.0",
+    "nbformat>=5.10.4",
+    "numpy>=2,<2.1",
+    "orjson>=3.10.18",
+    "plotly>=6.1.1",
+    "protobuf>=6.31.0",
+    "pyarrow>=20.0.0",
+    "safetensors>=0.5.3",
+    "scattermoe",
+    "sentencepiece>=0.2.0",
+    "smoe",
+    "sortedcontainers>=2.4.0",
+    "stanford-stk>=0.7.1",
+    "torch==2.6.0",
+    "transformers>=4.52.3,<4.54.0",
+    "wheel>=0.45.1",
+]
+
+[tool.uv]
+cache-dir = "../.uv_cache"
+no-build-isolation-package = ["flash-attn", "causal-conv1d", "mamba-ssm"]
+
+[tool.uv.sources]
+torch = { index = "pytorch" }
+numpy = { index = "original" }
+scattermoe = { git = "https://github.com/shawntan/scattermoe", rev = "63b76a2f5f28c052fb4cd7c34479a54158354052" }
+smoe = { git = "https://github.com/OpenSparseLLMs/LLaMA-MoE-v2" }
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[[tool.uv.index]]
+name = "original"
+url = "https://pypi.org/simple"
+explicit = true

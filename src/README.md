@@ -32,15 +32,15 @@
 - Run `50_topk.py`, `51_chr_calc.py`, `52_chr_refine.py` and `53_chr_merge.py` sequentially.
 - Run `54_chr_plot.ipynb` to compare SCH and hit rates of common cache algorithms.
 
-## Additional Scripts and Notebooks
+## Additional scripts and notebooks
 
-### Case Study
+### Case study
 
 - Run `A0_case_calculate.py` for each model (e.g., `python A0_case_calculate.py qwen3`).
 - Then, run `A1_case_merge.py` and `A2_case_refine.py` sequentially.
 - Run `A3_case_plot.ipynb` to plot results.
 
-### Base Model vs. Post-trained Model
+### Base model vs. post-trained model
 
 - Run `B0_post.ipynb` to compare base models with their post-trained (e.g., SFT) variants.
 

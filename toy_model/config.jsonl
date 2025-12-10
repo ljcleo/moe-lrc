@@ -1,0 +1,13 @@
+{"key": "baseline", "main": true, "name": "baseline", "abbr": "BL", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 64, "top_k": 8, "attn": "sdpa"}
+{"key": "32expert", "main": true, "name": "baseline", "abbr": "FE", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 32, "top_k": 4, "attn": "sdpa"}
+{"key": "top16", "main": true, "name": "baseline", "abbr": "AM", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 64, "top_k": 16, "attn": "sdpa"}
+{"key": "top2", "main": true, "name": "baseline", "abbr": "AF", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 64, "top_k": 2, "attn": "sdpa"}
+{"key": "share1", "main": true, "name": "share1", "abbr": "SH1", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 63, "top_k": 7, "attn": "sdpa"}
+{"key": "share2", "main": true, "name": "share2", "abbr": "SH2", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 62, "top_k": 6, "attn": "sdpa"}
+{"key": "skip1", "main": true, "name": "skip1", "abbr": "DF", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 64, "top_k": 8, "attn": "sdpa"}
+{"key": "skip1slim", "main": false, "name": "skip1", "abbr": "DFS", "type": "causal", "num_params": 1.29, "num_layers": 8, "num_experts": 64, "top_k": 8, "attn": "sdpa"}
+{"key": "sparse2", "main": true, "name": "sparse2", "abbr": "DH", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 64, "top_k": 8, "attn": "sdpa"}
+{"key": "sparse2slim", "main": false, "name": "sparse4", "abbr": "DHS", "type": "causal", "num_params": 0.88, "num_layers": 8, "num_experts": 64, "top_k": 8, "attn": "sdpa"}
+{"key": "nolb", "main": true, "name": "baseline", "abbr": "NB", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 64, "top_k": 8, "attn": "sdpa"}
+{"key": "overlb", "main": true, "name": "baseline", "abbr": "OB", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 64, "top_k": 8, "attn": "sdpa"}
+{"key": "nozl", "main": false, "name": "baseline", "abbr": "NZ", "type": "causal", "num_params": 1.43, "num_layers": 8, "num_experts": 64, "top_k": 8, "attn": "sdpa"}

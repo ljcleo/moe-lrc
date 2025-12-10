@@ -1,0 +1,3 @@
+# TOY model preparation
+
+We use [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) to pretrain TOY models from scratch; please follow their installation instructions (you may need to clone their repository to `Megatron-LM` to run `run.sh`). The training data is a subset of the one used by [OLMoE](https://github.com/allenai/OLMo/tree/Muennighoff/MoE); download their data and use `data/prepare_data.py` to create the Megatron-LM compatible subset for pretraining. Set up the directories specified in `run.sh` and run the script to pretrain various TOY models. After pretraining, use `tohf.py` to convert the checkpoints to 🤗 format; we use the last checkpoint (10,000 steps) in our experiments.

@@ -1,0 +1,1 @@
+../../common/configuration_toy.py

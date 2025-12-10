@@ -24,13 +24,13 @@
 
 ## Step 4: Calculate segment cache best hit rate (SCH)
 
-- Run `40_sch_calc.py`, `41_sch_refine.py` and `42_sch_merge.py` sequentially.
-- Run `43_srp_plot.ipynb` to plot SCH results.
+- Run `40_topk.py`, `41_sch_calc.py`, `42_sch_refine.py` and `43_sch_merge.py` sequentially.
+- Run `44_srp_plot.ipynb` to plot SCH results.
 
 ## Step 5: Calculate hit rates of common cache algorithms
 
-- Run `50_topk.py`, `51_chr_calc.py`, `52_chr_refine.py` and `53_chr_merge.py` sequentially.
-- Run `54_chr_plot.ipynb` to compare SCH and hit rates of common cache algorithms.
+- Run `50_chr_calc.py`, `51_chr_refine.py` and `52_chr_merge.py` sequentially.
+- Run `53_chr_plot.ipynb` to compare SCH and hit rates of common cache algorithms.
 
 ## Additional scripts and notebooks
 
@@ -48,3 +48,8 @@
 
 - Run `C0_srp_pos_calc.py`, `C1_srp_pos_refine.py` and `C2_srp_pos_merge.py` sequentially.
 - Run `C3_srp_pos_plot.ipynb` to plot position-wise SRP results.
+
+### Throughput
+
+- Run `D0_tp_calc.py`, `D1_tp_refine.py` and `D2_tp_merge.py` sequentially.
+- Run `D3_tp_plot.ipynb` to plot naive expert offloading throughput results.

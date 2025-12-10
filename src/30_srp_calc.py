@@ -4,11 +4,11 @@ from pathlib import Path
 import torch
 from safetensors.torch import load_file, save_file
 
-from misc import get_global_config, get_model_keys, model_config, print_log
+from misc import get_global_config, get_model_keys, model_config, print_log, stable_hash
 
 
 def seg_stat(bs_size, in_dir, out_dir, model_key):
-    rng = torch.manual_seed(hash(model_key))
+    rng = torch.manual_seed(stable_hash(model_key))
     bs_w = [None]
 
     def calc_stat(mask: torch.Tensor, seg_len: int):

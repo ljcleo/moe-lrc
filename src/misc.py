@@ -1,5 +1,6 @@
 from argparse import ArgumentParser
 from datetime import datetime
+from hashlib import sha256
 from typing import Any
 
 import orjson
@@ -79,3 +80,7 @@ def get_data_and_model_keys(from_arg: bool = False) -> tuple[list[str], list[str
 
 def print_log(*msg: Any) -> None:
     print(datetime.now().strftime("[%Y/%m/%d %H:%M:%S]"), *msg)
+
+
+def stable_hash(key: str) -> int:
+    return int(sha256(key.encode()).hexdigest(), base=16) & 0xFFFFFFFF

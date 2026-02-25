@@ -19,13 +19,11 @@ We recommend using [uv](https://docs.astral.sh/uv/) to setup a Python environmen
 ## Cite
 
 ```bibtex
-@misc{liang2025modelssuitexpertoffloading,
-      title={Not All Models Suit Expert Offloading: On Local Routing Consistency of Mixture-of-Expert Models}, 
-      author={Jingcong Liang and Siyuan Wang and Miren Tian and Yitong Li and Duyu Tang and Zhongyu Wei},
-      year={2025},
-      eprint={2505.16056},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.16056}, 
+@inproceedings{liang2026not,
+title={Not All Models Suit Expert Offloading: On Local Routing Consistency of Mixture-of-Expert Models},
+author={Jingcong Liang and Siyuan Wang and Miren Tian and Yitong Li and Duyu Tang and zhongyu wei},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=2XMAUP74ig}
 }
 ```
